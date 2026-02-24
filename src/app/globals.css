@@ -13,6 +13,7 @@ body {
 
 @media (max-width: 460px) {
   body {
+     background-attachment: fixed;
     background-size: contain;
     background-position: top;
     background-repeat: repeat-y;
