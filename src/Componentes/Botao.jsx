@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import estilos from "../Componentes/Botao.module.css";
 import image from "../../public/button.png";
@@ -11,12 +10,7 @@ export default function Botao() {
   return (
     <div className={estilos.botao}>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <Image
-          src={image}
-          alt="Botão WhatsApp"
-          width={60}
-          height={60}
-        />
+        <Image src={image} alt="Botão WhatsApp" />
       </a>
     </div>
   );
