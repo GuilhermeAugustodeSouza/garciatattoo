@@ -1,0 +1,18 @@
+.containerRodape{
+    width: 100vw;
+    height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background:linear-gradient(to right, #000000, #8000ff) ;
+ }
+
+
+.containerRodape div{
+      
+     font-family: poppins;
+}
+.containerRodape p{
+    color:#000000;
+    
+}

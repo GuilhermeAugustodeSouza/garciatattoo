@@ -1,0 +1,23 @@
+.containerLogotipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+.containerLogotipo img{
+max-width: 250px;
+max-height: 180px;
+border-radius: 70%;
+background: none;
+opacity: 0.9;
+animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-15px);}
+    100% {transform: translateY(0px);}
+
+}
