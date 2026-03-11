@@ -3,7 +3,7 @@ import estilos from "../Componentes/Botao.module.css";
 import image from "../../public/button.png";
 
 export default function Botao() {
-  const numero = "5531987049074";
+  const numero = "5531988890869";
   const mensagem = "Olá, gostaria de mais informações";
   const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
